@@ -37,11 +37,11 @@ const CardDetail = () => {
     if (currentId?.news?.length > 0) {
         currentNews = currentId.news[0];
     }
-    
+
     return (
         <>
             {loading ?
-                <div className="w-full h-full bg-white"></div>
+                <div className="skeleton w-screen h-screen bg-stone-100"></div>
                 :
                 <div className="flex flex-col bg-blue-50 w-full h-full p-4">
                     <div className="text-5xl p-4 font-sans">

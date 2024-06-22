@@ -64,7 +64,7 @@ const Home = () => {
                         <div className="flex flex-col md:justify-stretch justify-center items-center">
                             {
                                 loading ? (
-                                    [...Array(20)].map((_, i) => <div className='skeleton h-32 w-full mb-4 mx-4 bg-stone-100' key={i} />)
+                                    [...Array(20)].map((_, i) => <div className='skeleton h-32 w-screen mb-4 mx-4 bg-stone-100' key={i} />)
                                 ) :
                                     currentlyCards.length === 0 ? (
                                         <div className='w-full'>Sorry, no results found</div>
