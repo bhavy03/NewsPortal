@@ -75,4 +75,4 @@ config.env and assign all variables according to you
 
    Project will be running in the browser.
 
-   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
