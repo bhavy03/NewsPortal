@@ -20,7 +20,7 @@ const Home = () => {
                 const response = await fetch('https://api.worldnewsapi.com/top-news?source-country=in&language=en', {
                     method: 'GET',
                     headers: {
-                        'x-api-key': 'df1eb0dfe9a74dc799b1c25614b63a64',
+                        'x-api-key': `${import.meta.env.VITE_API_KEY}`,
                     }
                 });
                 if (!response.ok) {
